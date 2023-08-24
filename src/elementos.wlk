@@ -16,8 +16,7 @@ object castillo
 	method trabajo()
 	{
 		
-			defensa += 20
-			defensa = 200.min(defensa)
+			defensa = 200.max(defensa + 2)
 	}
 	method valor()
 	{
